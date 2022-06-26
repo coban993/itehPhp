@@ -1,0 +1,123 @@
+@font-face {
+    src: url("fonts/anirb___.ttf");
+    font-family: AniranB;
+
+    src: url("fonts/anirm___.ttf");
+    font-family: AniranR;
+
+    src: url("fonts/LibreBaskerville-Regular.ttf");
+    font-family: LibreR; 
+
+    src: url("fonts/LibreBaskerville-Bold.ttf");
+    font-family: LibreB; 
+}
+
+html, body{
+    height:100%;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    padding:1% 0;
+    font-size:1.2em;
+}
+
+.image-logo{
+    height: 60px;
+    width:120px;
+}
+
+.navbar-brand{
+    min-height: 50px;
+    padding-top: 0;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left:15px ;
+}
+
+.navbar-default .navbar-nav li a{
+    color:whitesmoke;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+    color:#F39237;
+}
+
+nav a{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+#home{
+    background: url("images/FullHDBookShelfs.jpg") no-repeat center center fixed;
+    display:table;
+    height:100%;
+    position:relative;
+    width:100%;
+    background-size:cover;
+}
+
+.landing-text{
+    display: table-cell;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.landing-text h1{
+    font-size: 500%;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.landing-text h3{
+    color: whitesmoke;
+}
+
+.padding{
+    padding:80px 0;
+}
+
+.padding img{
+    width: 100%;
+}
+
+
+.most_popular_books_image{
+    width: 10000px ;
+    height: 200px;
+    margin-right: 100px;
+}
+
+.titleName{
+    text-align: center;
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    padding: 2% 2% 4% 2%;
+    color: whitesmoke;
+}
+
+.fa{
+    padding: 15px;
+    font-size: 25px;
+    color:whitesmoke;
+}
+
+.fa:hover{
+    color:#F39237;
+    text-decoration: none;
+}
+
+footer h3{
+    font-size:200% ;
+}
+
+footer .col-sm-4{
+    width: 100%;
+}
+

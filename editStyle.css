@@ -1,0 +1,46 @@
+.navbar{
+    background-color: black;
+    padding:1% 0;
+    font-size:1.2em;
+}
+
+.image-logo{
+    height: 60px;
+    width:120px;
+}
+
+.navbar-brand{
+    min-height: 50px;
+    padding-top: 0;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left:15px ;
+}
+
+.navbar-default .navbar-nav li a{
+    color:whitesmoke;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+    color:#F39237;
+}
+
+nav a{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.dbt{
+    height: 1px;
+    color:black;
+    background-color: black;
+}
+
+#addBookForm{
+    width: 100%;
+}
+

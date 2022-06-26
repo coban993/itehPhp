@@ -1,0 +1,90 @@
+@font-face {
+    src: url("fonts/anirb___.ttf");
+    font-family: AniranB;
+
+    src: url("fonts/anirm___.ttf");
+    font-family: AniranR;
+
+    src: url("fonts/LibreBaskerville-Regular.ttf");
+    font-family: LibreR; 
+
+    src: url("fonts/LibreBaskerville-Bold.ttf");
+    font-family: LibreB; 
+}
+
+html, body{
+    height:100%;
+    width:100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    background-color: black;
+    padding:1% 0;
+    font-size:1.2em;
+}
+
+.image-logo{
+    height: 60px;
+    width:120px;
+}
+
+.navbar-brand{
+    min-height: 50px;
+    padding-top: 0;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    padding-left:15px ;
+}
+
+.navbar-default .navbar-nav li a{
+    color:whitesmoke;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a:active{
+    color:#F39237;
+}
+
+nav a{
+    margin-right: 30px;
+    font-size: 20px;
+}
+
+#home{
+    display:table;
+    height:100%;
+    position:relative;
+    width:100%;
+    background-size:cover;
+}
+
+.landing-text{
+    text-align:center;
+    padding-top: 100px;  
+}
+
+.landing-text h1{
+    font-size: 500%;
+    font-weight: 700;
+}
+
+.landing-text h3{
+    font-size: 200%;
+    font-weight: 700;
+    padding:30px;
+}
+
+.dbt{
+    height: 1px;
+    color:black;
+    background-color: black;
+}
+
+.btn{
+    color:whitesmoke;
+    background-color: orange;
+}
+
+#sort-btn{
+    margin-bottom: 2rem;
+}
